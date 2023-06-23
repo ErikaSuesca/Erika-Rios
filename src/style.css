@@ -1,268 +1,267 @@
 :root {
-    --color-violet: #8b48bf;
-    --color-light-blue: #3cddf3;
-    --color-gray-blue: #1e1e26;
-    --color-dark-blue: #232851;
-    --color-variant-gray: rgb(249, 249, 249);
+--color-violet: #8b48bf;
+--color-light-blue: #3cddf3;
+--color-gray-blue: #1e1e26;
+--color-dark-blue: #232851;
+--color-variant-gray: rgb(249, 249, 249);
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Be Vietnam Pro', sans-serif;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Be Vietnam Pro', sans-serif;
 }
 
 header {
-    display: flex;
-    justify-content: space-between;
-    margin: 3.5rem;
+display: flex;
+justify-content: space-between;
+margin: 3.5rem;
 }
 
 .logo-header {
-    width: 21vh;
+width: 21vh;
 }
 
 .menu-hamb {
-    width: 7.5vh;
+width: 7.5vh;
 }
 
 .padel {
-    width: 80vw;
-    margin-left: 2rem;
+width: 80vw;
+margin-left: 2rem;
 }
 
 .menu,
 header>button {
-    display: none;
+display: none;
 }
 
 .info-one {
-    text-align: right;
-    padding: 3rem;
+text-align: right;
+padding: 3rem;
 }
 
 h1 {
-    margin-top: 50px;
-    margin-bottom: 15px;
-    font-size: 2.8rem;
-    color: var(--color-dark-blue);
+margin-top: 50px;
+margin-bottom: 15px;
+font-size: 2.8rem;
+color: var(--color-dark-blue);
 }
 
 article.info-one button {
-    margin-top: 2rem;
-    border: none;
-    border-radius: 21px;
-    width: 24vw;
-    height: 7vh;
-    background-color: var(--color-violet);
-    color: white;
+margin-top: 2rem;
+border: none;
+border-radius: 21px;
+width: 24vw;
+height: 7vh;
+background-color: var(--color-violet);
+color: white;
 }
 
 .art-one {
-    background-color: var(--color-light-blue);
+background-color: var(--color-light-blue);
 }
 
 section.info-two article.art-one h2 {
-    padding: 2rem;
-    font-size: 2.2rem;
-    color: white;
+padding: 2rem;
+font-size: 2.2rem;
+color: white;
 
 }
 
 .text-desktop {
-    display: none;
+display: none;
 }
 
 section.info-two article.art-one p {
-    color: var(--color-variant-gray);
-    padding-left: 2rem;
-    padding-right: 5rem;
-    font-size: 0.9rem;
-    padding-bottom: 2rem;
+color: var(--color-variant-gray);
+padding-left: 2rem;
+padding-right: 5rem;
+font-size: 0.9rem;
+padding-bottom: 2rem;
 }
 
 section.five ol {
-    list-style: none;
-    margin-top: 2.5rem;
-    margin-left: 2rem;
+list-style: none;
+margin-top: 2.5rem;
+margin-left: 2rem;
 }
 
 .num {
-    width: 12vw;
-    background-color: var(--color-violet);
-    padding: 9px;
-    border-radius: 21px;
-    color: white;
-    height: 7vh;
-    text-align: center;
-    font-weight: bold;
+width: 12vw;
+background-color: var(--color-violet);
+padding: 9px;
+border-radius: 21px;
+color: white;
+height: 7vh;
+text-align: center;
+font-weight: bold;
 }
 
 .title {
-    padding: 9px;
-    margin-top: -2.5rem;
-    background-color: rgba(139, 72, 191, 0.2);
-    color: var(--color-dark-blue);
-    border-radius: 16px 0 0 16px;
-    ;
-    width: 93vw;
-    height: 7vh;
-    text-align: center;
-    font-size: 1rem;
+padding: 9px;
+margin-top: -2.5rem;
+background-color: rgba(139, 72, 191, 0.2);
+color: var(--color-dark-blue);
+border-radius: 16px 0 0 16px;
+;
+width: 93vw;
+height: 7vh;
+text-align: center;
+font-size: 1rem;
 }
 
 .text {
-    margin-top: 1rem;
-    font-size: 1rem;
-    margin-right: 2.5rem;
-    line-height: 28px;
-    color: #B3B2B7;
-    margin-bottom: 1rem;
+margin-top: 1rem;
+font-size: 1rem;
+margin-right: 2.5rem;
+line-height: 28px;
+color: #B3B2B7;
+margin-bottom: 1rem;
 }
 
 .sanyo,
 .navarro {
-    display: none;
+display: none;
 }
 
 .info-three {
-    margin-top: 3rem;
-    margin-left: 2rem;
+margin-top: 3rem;
+margin-left: 2rem;
 }
 
 .lebron {
-    position: relative;
-    margin-top: 5rem;
-    background-color: #FAFAFA;
-    width: 89vw;
-    height: 45vh;
+position: relative;
+margin-top: 5rem;
+background-color: #FAFAFA;
+width: 89vw;
+height: 45vh;
 }
 
 section.info-three h2 {
-    text-align: center;
-    font-size: 2.5rem;
-    color: var(--color-dark-blue);
+text-align: center;
+font-size: 2.5rem;
+color: var(--color-dark-blue);
 }
 
 .img-lebron {
-    margin-left: 9rem;
-    width: 26vw;
-    height: 18vh;
-    margin-top: -3rem;
+margin-left: 9rem;
+width: 26vw;
+height: 18vh;
+margin-top: -3rem;
 }
 
 .title-lebron {
-    text-align: center;
-    margin-right: 1rem;
-    margin-top: 1.3rem;
-    margin-bottom: 1.3rem;
-    color: var(--color-dark-blue);
+text-align: center;
+margin-right: 1rem;
+margin-top: 1.3rem;
+margin-bottom: 1.3rem;
+color: var(--color-dark-blue);
 }
 
 .p-lebron {
-    margin-left: 1rem;
-    text-align: center;
-    font-size: 1rem;
-    line-height: 27px;
-    margin-right: 1rem;
-    color: #B9B9C1;
+margin-left: 1rem;
+text-align: center;
+font-size: 1rem;
+line-height: 27px;
+margin-right: 1rem;
+color: #B9B9C1;
 }
 
 section.info-three button {
-    margin-top: 2rem;
-    margin-left: 9rem;
-    border: none;
-    border-radius: 21px;
-    width: 24vw;
-    height: 7vh;
-    background-color: var(--color-violet);
-    color: white;
+margin-top: 2rem;
+margin-left: 9rem;
+border: none;
+border-radius: 21px;
+width: 24vw;
+height: 7vh;
+background-color: var(--color-violet);
+color: white;
 }
 
 .info-four {
-    display: flex;
-    background-color: #3cddf3;
-    color: white;
-    margin-top: 4rem;
-    width: 100vw;
-    height: 70vh;
+background-color: #3cddf3;
+color: white;
+margin-top: 4rem;
+width: 100vw;
+height: 70vh;
 }
 
 article.info-four h2 {
-    text-align: center;
-    font-size: 3rem;
-    padding-top: 2rem;
-    padding-left: 5rem;
-    padding-right: 2em;
+text-align: center;
+font-size: 3rem;
+padding-top: 2rem;
+padding-left: 5rem;
+padding-right: 2em;
 }
 
 article.info-four button {
-    margin-top: 7rem;
-    margin-left: 17rem;
-    border: none;
-    border-radius: 21px;
-    width: 9vw;
-    height: 5vh;
-    background-color: white;
-    color: var(--color-violet);
+margin-top: 2.5rem;
+margin-left: 11rem;
+border: none;
+border-radius: 21px;
+width: 24vw;
+height: 7vh;
+background-color: var(--color-dark-blue);
+color: white;
 }
 
 footer {
-    background-color: var(--color-gray-blue);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+background-color: var(--color-gray-blue);
+display: flex;
+flex-direction: column;
+align-items: center;
 }
 
 footer>form {
-    margin-top: 3rem;
+margin-top: 3rem;
 }
 
 footer>form>input {
-    border-radius: 19px;
-    border: none;
-    width: 50vw;
-    height: 7vh;
-    align-items: center;
+border-radius: 19px;
+border: none;
+width: 50vw;
+height: 7vh;
+align-items: center;
 }
 
 footer>form>button {
-    background-color: var(--color-violet);
-    padding: 9px;
-    border-radius: 21px;
-    border: none;
-    color: white;
-    text-align: center;
-    width: 12vw;
-    height: 7vh;
+background-color: var(--color-violet);
+padding: 9px;
+border-radius: 21px;
+border: none;
+color: white;
+text-align: center;
+width: 12vw;
+height: 7vh;
 }
 
 footer>ul {
-    list-style-type: none;
-    color: white;
-    padding: 2rem;
-    padding-top: 4rem;
-    display: grid;
-    grid-template-columns: max-content max-content;
-    gap: 10px;
-    width: 100%;
-    line-height: 23px;
-    justify-content: space-around;
+list-style-type: none;
+color: white;
+padding: 2rem;
+padding-top: 4rem;
+display: grid;
+grid-template-columns: max-content max-content;
+gap: 10px;
+width: 100%;
+line-height: 23px;
+justify-content: space-around;
 }
 
 .redes-sociales {
-    display: flex;
-    width: 100vw;
-    justify-content: space-evenly;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+display: flex;
+width: 100vw;
+justify-content: space-evenly;
+margin-top: 2rem;
+margin-bottom: 2rem;
 }
 
 footer>p {
-    padding-bottom: 3rem;
-    padding-top: 2rem;
-    color: #8C8C94;
+padding-bottom: 3rem;
+padding-top: 2rem;
+color: #8C8C94;
 }
 
 @media screen and (min-width: 1440px) {
@@ -273,6 +272,7 @@ footer>p {
         margin-left: 2rem;
         margin-right: 10rem;
         margin-top: 6rem;
+        cursor: pointer;
     }
 
     .menu {
@@ -480,12 +480,58 @@ footer>p {
     }
 
     footer {
-        display: flex;
+        position: relative;
         flex-direction: row-reverse;
-        flex-wrap: wrap-reverse;
-        align-items: flex-end;
-        align-content: stretch;
-        justify-content: space-around;       
-        padding: 5rem 8rem;
+        justify-content: space-around;
+        padding: 5rem 6rem;
+        height: 29vh;
+    }
+
+    .logo-f {
+        position: absolute;
+        margin-bottom: 8rem;
+        margin-left: 9rem;
+        top: 4rem;
+        left: -2rem;
+    }
+
+    footer>form>input {
+        border: none;
+        border-radius: 20px;
+        height: 4vh;
+        width: 13vw;
+        position: relative;
+        bottom: 5rem;
+    }
+
+    footer>form>button {
+        border-radius: 18px;
+        height: 4vh;
+        width: 4vw;
+        position: relative;
+        bottom: 5rem;
+    }
+
+    footer>ul {
+        position: relative;
+        bottom: 1rem;
+        line-height: 2rem;
+        width: 50%;
+    }
+
+    .redes-sociales {
+        position: absolute;
+        width: 10rem;
+        left: 6rem;
+        bottom: 2rem;
+    }
+
+    footer>p {
+        order: -1;
+        color: #8c8c94;
+        font-size: 0.8rem;
+        position: absolute;
+        top: 11rem;
+        right: 8rem;
     }
 }
